@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+                                                                                                                                                                                                                                                                                                                                                                                                  
+<html>
+    <head>
+        <title>registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" href="styles/style.css" ></style>-->
+    <link rel="stylesheet" href="styles/w3.css" >
+    <style>
+       #reg
+       {
+           float: left;
+           
+       }
+       .in
+       {
+           
+           display:block;
+          background-color: red;
+           
+       }
+       body{
+           background-color: greenyellow
+       }
+       .alig
+       {
+           text-align: center;
+           
+               
+       }
+        
+    </style>
+    
+    </head>
+    <body>
+        <div class="in">
+     <img src="img/SDI LOGO.png" alt="sdi" height="100" width="150" align="left" class="w3-image in w3-circle w3-left-align">
+     <center> <h1 class="alig">SKILL DEVELOPMENT INSTITUTE
+         </h1></div> 
+    <center>
+    <div class="container">
+   <form action="registration" method="post" class="w3-container w3-card-5 w3-light-green ">
+<h1>Student Registration Form</h1>
+<input type="text" name="first_name"  placeholder="First Name"class="w3-input w3-border-aqua  w3-third w3-margin-bottom w3-border-right">
+ <input type="text" name="middle_name"placeholder="Middle Name" class="w3-input w3-third w3-margin-bottom ">
+ <input type="text" name="last_name"  placeholder="Last Name" class="w3-input w3-third w3-margin-bottom">
+                    
+  <input type="text" placeholder="school/college name" class="w3-input w3-half w3-margin-bottom">
+  <select name="qulification" id="sel" class="w3-select w3-half w3-margin-bottom">
+   <option value="" selected>Select your qualification</option>
+    <option value="1st-9th">1st-9th</option>
+     <option value="ssc">SSC</option>
+   <option value="hsc">HSC</option>
+     <option value="graduate">GRADUATE</option>
+  </select>
+ <input type="date" name="dob" placeholder="Date Of Birth" class="w3-input w3-margin-bottom w3-half">
+ <input type="text" placeholder="Place Of Birth" class="w3-input w3-margin-bottom w3-half">
+                     
+ <p class="w3-twothird w3-left-align">Gender<input type="radio" name="gender" value="male" class="w3-radio w3-margin-bottom">Male
+ <input type="radio" name="gender" value="Female"style="margin-left: 10px;" class="w3-radio w3-margin-bottom ">Female</p>
+                
+<select name="id_proof" id="sel" class="w3-select w3-margin-bottom w3-half">
+<option value="" selected>Id_proof</option>
+ <option value="aadhar-card" nmae="id_proof">Aadhar-Card</option>
+<option value="driving-license" name="id_proof">Driving-License</option>
+<option value="pan-card" name="id_proof">Pan-Card</option>
+</select>
+<input type="text" name="id_no" placeholder="Id_Proof Number" class="w3-input w3-margin-bottom w3-half">
+<input type="text" name="mobile1" placeholder="Mobile_Number-1" class="w3-input w3-margin-bottom w3-half">
+ <input type="text" name="mobile2" placeholder="Mobile_Number-2" class="w3-input w3-half w3-margin-bottom w3-half">
+  <select name="phy_chal" id="sel" class="w3-select w3-margin-bottom w3-half">
+ <option value="" selected>Pysically Challenged</option>
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select>
+                        
+               
+<input type="text" placeholder="father's occuption" name="foccupation" class="w3-select w3-margin-bottom w3-half"></td>
+<input type="file" name="upload_img" class="w3-input w3-margin-bottom w3-half" placeholder="Upload img">
+<input type="file" name="upload_sign" class="w3-input w3-margin-bottom w3-half" placeholder="Upload your sign">
+<textarea placeholder="ENTER PERMANENT ADDRESS" class="w3-input w3-margin-bottom   w3-twothird w3-margin-right" ></textarea> </td>
+ <input type="submit" value="Register" class="w3-left-align w3-button w3-black w3-margin-bottom w3-third" id="reg">
+        </form>  
+        </div>
+    </center>
+    </body>
+</html>
